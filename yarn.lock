@@ -926,7 +926,7 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
-base16@Dean177/base16-js:
+base16@Dean177/base16-js, base16@Dean177/base16-js#6c5e5f3b63990b580ffdc036bc672f8987d5b93d:
   version "1.0.1"
   resolved "https://codeload.github.com/Dean177/base16-js/tar.gz/6c5e5f3b63990b580ffdc036bc672f8987d5b93d"
 
@@ -4239,6 +4239,16 @@ rc@^1.1.7:
   resolved "https://codeload.github.com/dean177/react-base16-styling/tar.gz/fbc6593cc58c5f4662c40b85964c7f9fbcb3984d"
   dependencies:
     base16 Dean177/base16-js
+    color-space "^1.14.3"
+    lodash.curry "^4.0.1"
+    lodash.flow "^3.3.0"
+    pure-color "^1.2.0"
+
+react-base16-styling@patw0929/react-base16-styling#feature/point-to-specific-commit:
+  version "0.4.6"
+  resolved "https://codeload.github.com/patw0929/react-base16-styling/tar.gz/074d93834fa569035de77de4fb6248536f81a825"
+  dependencies:
+    base16 Dean177/base16-js#6c5e5f3b63990b580ffdc036bc672f8987d5b93d
     color-space "^1.14.3"
     lodash.curry "^4.0.1"
     lodash.flow "^3.3.0"
